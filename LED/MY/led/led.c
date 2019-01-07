@@ -19,7 +19,7 @@ void LED_Init(void)
 	//打开PE口时钟
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOE, ENABLE);
 	//PB5,PE5引脚设置
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;
 	//端口速度
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	//端口模式，此为输出推挽模式

@@ -17,14 +17,14 @@ uint32_t i; //定义32位数
 LED_Init(); //初始化LED
 
 LED2_ON;
-LED3_OFF;
+LED3_ON;
 for(i=0;i<0xffffff;i++);//for循环不精确延时	
 while(1)
  {
   for(i=0;i<0xfffff;i++);//for循环不精确延时
 	LED2_REV;//LED2取反
 	   for(i=0;i<0xfffff;i++);//for循环不精确延时
-	LED3_REV;//LED3取反
+	LED2_REV;//LED3取反
  } 
 }
 /*----------------------德飞莱 技术论坛：www.doflye.net--------------------------*/
