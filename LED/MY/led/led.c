@@ -26,5 +26,5 @@ void LED_Init(void)
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 	//初始化对应的端口
   GPIO_Init(GPIOB, &GPIO_InitStructure);
-  GPIO_Init(GPIOE, &GPIO_InitStructure);
+  GPIO_Init(GPIOC, &GPIO_InitStructure);
 }
